@@ -1,0 +1,17 @@
+.banner{
+    height: 150px;
+}
+.bannerText{
+    font-weight: bolder;
+}
+.formDiv{
+    height: 600px;
+}
+.storeText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 40%;
+    border: 2px solid red; */
+}

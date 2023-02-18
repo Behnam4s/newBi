@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyCalculator</title>
+</head>
+<body>
+    <h1>ماشین حساب ساده</h1>
+<form name="MyCalculator">
+<input type="text" name="input"><br><br>
+<input class="inputbtn" type="button" value="1" onclick="MyCalculator.input.value+='1'" >
+<input class="inputbtn" type="button" value="2" onclick="MyCalculator.input.value+='2'" >
+<input class="inputbtn" type="button" value="3" onclick="MyCalculator.input.value+='3'" >
+<input class="inputbtn" type="button" value="+" onclick="MyCalculator.input.value+='+'" >
+<br>
+    <input class="inputbtn" type="button" value="4" onclick="MyCalculator.input.value+='4'" >
+    <input class="inputbtn" type="button" value="5" onclick="MyCalculator.input.value+='5'" >
+    <input class="inputbtn" type="button" value="6" onclick="MyCalculator.input.value+='6'" >
+    <input class="inputbtn" type="button" value="-" onclick="MyCalculator.input.value+='-'" >
+<br>
+<input class="inputbtn" type="button" value="7" onclick="MyCalculator.input.value+='7'" >
+<input class="inputbtn" type="button" value="8" onclick="MyCalculator.input.value+='8'" >
+<input class="inputbtn" type="button" value="9" onclick="MyCalculator.input.value+='9'" >
+<input class="inputbtn" type="button" value="*" onclick="MyCalculator.input.value+='*'" >
+<br>
+<input class="inputbtn" type="button" value="c" onclick="MyCalculator.input.value=''" >
+<input class="inputbtn" type="button" value="0" onclick="MyCalculator.input.value+='0'" >
+<input class="inputbtn" type="button" value="/" onclick="MyCalculator.input.value+='/'" >
+<input class="inputbtn" type="button" value="=" onclick="MyCalculator.input.value=eval(MyCalculator.input.value)" >
+</form>
+</body>
+</html>
